@@ -8,23 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		B51E0DED267A568A0062E9C4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DEC267A568A0062E9C4 /* main.swift */; };
+		B51E0DF5267A593A0062E9C4 /* out.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = B51E0DF3267A587D0062E9C4 /* out.txt */; };
+		B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DF6267A5CE30062E9C4 /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		B51E0DE7267A568A0062E9C4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		B51E0DF4267A58F20062E9C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				B51E0DF5267A593A0062E9C4 /* out.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B51E0DE9267A568A0062E9C4 /* PracticalWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PracticalWork; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51E0DEC267A568A0062E9C4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B51E0DF3267A587D0062E9C4 /* out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = out.txt; sourceTree = "<group>"; };
+		B51E0DF6267A5CE30062E9C4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 			isa = PBXGroup;
 			children = (
 				B51E0DEC267A568A0062E9C4 /* main.swift */,
+				B51E0DF6267A5CE30062E9C4 /* FileManager.swift */,
+				B51E0DF3267A587D0062E9C4 /* out.txt */,
 			);
 			path = PracticalWork;
 			sourceTree = "<group>";
@@ -72,6 +88,7 @@
 				B51E0DE5267A568A0062E9C4 /* Sources */,
 				B51E0DE6267A568A0062E9C4 /* Frameworks */,
 				B51E0DE7267A568A0062E9C4 /* CopyFiles */,
+				B51E0DF4267A58F20062E9C4 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -120,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B51E0DED267A568A0062E9C4 /* main.swift in Sources */,
+				B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
