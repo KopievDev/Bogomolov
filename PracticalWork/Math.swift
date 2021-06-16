@@ -2,7 +2,7 @@
 //  Math.swift
 //  PracticalWork
 //
-//  Created by Ivan Kopiev on 16.06.2021.
+//  Created by Yaroslav Bogomolov on 16.05.2021.
 //
 
 import Foundation
