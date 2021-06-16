@@ -7,11 +7,18 @@
 
 import Foundation
 
-// Создаем массив хранилище прямоугольников
-let manager = ColoredRectangles()
-// 2) Добавляем в него треугольники
-manager.addRectangles()
-// 3) Выводим параметры на экран
-manager.showParametrs()
-// 4) 3выводим отсортированные по цвету параметры треугольков
-sorted(array: manager.store, color: "yellow")
+// 1) Массив целых чисел
+var array = [Int]()
+
+let count = enterValidCount()
+// Заполнение массива случайными целыми числами
+for _ in 0 ..< count {
+    array.append(randomNumber())
+}
+
+// Сохраняем
+saveToFile()
+let arrayFromFile =  toArray(from: readFromFile())
+print("Элементы массива из файла:")
+print(arrayFromFile)
+showAmount(array: arrayFromFile)

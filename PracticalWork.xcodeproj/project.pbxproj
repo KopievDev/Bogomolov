@@ -16,6 +16,7 @@
 		B51E0E07267A6E650062E9C4 /* RectangleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E06267A6E650062E9C4 /* RectangleManager.swift */; };
 		B51E0E09267A72440062E9C4 /* ColoredRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E08267A72440062E9C4 /* ColoredRect.swift */; };
 		B51E0E0B267A72650062E9C4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E0A267A72650062E9C4 /* Framework.swift */; };
+		B51E0E0D267A76E00062E9C4 /* HM6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E0C267A76E00062E9C4 /* HM6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +52,7 @@
 		B51E0E06267A6E650062E9C4 /* RectangleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleManager.swift; sourceTree = "<group>"; };
 		B51E0E08267A72440062E9C4 /* ColoredRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredRect.swift; sourceTree = "<group>"; };
 		B51E0E0A267A72650062E9C4 /* Framework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
+		B51E0E0C267A76E00062E9C4 /* HM6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HM6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				B51E0DFC267A691C0062E9C4 /* Rectangle.swift */,
 				B51E0DFA267A62900062E9C4 /* Global.swift */,
 				B51E0E06267A6E650062E9C4 /* RectangleManager.swift */,
+				B51E0E0C267A76E00062E9C4 /* HM6.swift */,
 				B51E0E08267A72440062E9C4 /* ColoredRect.swift */,
 				B51E0E0A267A72650062E9C4 /* Framework.swift */,
 				B51E0DF3267A587D0062E9C4 /* output.txt */,
@@ -160,6 +163,7 @@
 				B51E0DED267A568A0062E9C4 /* main.swift in Sources */,
 				B51E0E07267A6E650062E9C4 /* RectangleManager.swift in Sources */,
 				B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */,
+				B51E0E0D267A76E00062E9C4 /* HM6.swift in Sources */,
 				B51E0E09267A72440062E9C4 /* ColoredRect.swift in Sources */,
 				B51E0DF9267A61080062E9C4 /* Math.swift in Sources */,
 			);
