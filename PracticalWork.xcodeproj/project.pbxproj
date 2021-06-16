@@ -14,6 +14,8 @@
 		B51E0DFB267A62900062E9C4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DFA267A62900062E9C4 /* Global.swift */; };
 		B51E0E01267A691C0062E9C4 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DFC267A691C0062E9C4 /* Rectangle.swift */; };
 		B51E0E07267A6E650062E9C4 /* RectangleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E06267A6E650062E9C4 /* RectangleManager.swift */; };
+		B51E0E09267A72440062E9C4 /* ColoredRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E08267A72440062E9C4 /* ColoredRect.swift */; };
+		B51E0E0B267A72650062E9C4 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0E0A267A72650062E9C4 /* Framework.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +49,8 @@
 		B51E0DFA267A62900062E9C4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		B51E0DFC267A691C0062E9C4 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = ../../../boroda/Borodaenko/PR3/Rectangle.swift; sourceTree = "<group>"; };
 		B51E0E06267A6E650062E9C4 /* RectangleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleManager.swift; sourceTree = "<group>"; };
+		B51E0E08267A72440062E9C4 /* ColoredRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredRect.swift; sourceTree = "<group>"; };
+		B51E0E0A267A72650062E9C4 /* Framework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 				B51E0DFC267A691C0062E9C4 /* Rectangle.swift */,
 				B51E0DFA267A62900062E9C4 /* Global.swift */,
 				B51E0E06267A6E650062E9C4 /* RectangleManager.swift */,
+				B51E0E08267A72440062E9C4 /* ColoredRect.swift */,
+				B51E0E0A267A72650062E9C4 /* Framework.swift */,
 				B51E0DF3267A587D0062E9C4 /* output.txt */,
 			);
 			path = PracticalWork;
@@ -148,11 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51E0E0B267A72650062E9C4 /* Framework.swift in Sources */,
 				B51E0E01267A691C0062E9C4 /* Rectangle.swift in Sources */,
 				B51E0DFB267A62900062E9C4 /* Global.swift in Sources */,
 				B51E0DED267A568A0062E9C4 /* main.swift in Sources */,
 				B51E0E07267A6E650062E9C4 /* RectangleManager.swift in Sources */,
 				B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */,
+				B51E0E09267A72440062E9C4 /* ColoredRect.swift in Sources */,
 				B51E0DF9267A61080062E9C4 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
