@@ -12,6 +12,7 @@
 		B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DF6267A5CE30062E9C4 /* FileManager.swift */; };
 		B51E0DF9267A61080062E9C4 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DF8267A61080062E9C4 /* Math.swift */; };
 		B51E0DFB267A62900062E9C4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DFA267A62900062E9C4 /* Global.swift */; };
+		B51E0E01267A691C0062E9C4 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E0DFC267A691C0062E9C4 /* Rectangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		B51E0DF6267A5CE30062E9C4 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		B51E0DF8267A61080062E9C4 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		B51E0DFA267A62900062E9C4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		B51E0DFC267A691C0062E9C4 /* Rectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Rectangle.swift; path = ../../../boroda/Borodaenko/PR3/Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				B51E0DEC267A568A0062E9C4 /* main.swift */,
 				B51E0DF6267A5CE30062E9C4 /* FileManager.swift */,
 				B51E0DF8267A61080062E9C4 /* Math.swift */,
+				B51E0DFC267A691C0062E9C4 /* Rectangle.swift */,
 				B51E0DFA267A62900062E9C4 /* Global.swift */,
 				B51E0DF3267A587D0062E9C4 /* out.txt */,
 			);
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51E0E01267A691C0062E9C4 /* Rectangle.swift in Sources */,
 				B51E0DFB267A62900062E9C4 /* Global.swift in Sources */,
 				B51E0DED267A568A0062E9C4 /* main.swift in Sources */,
 				B51E0DF7267A5CE30062E9C4 /* FileManager.swift in Sources */,

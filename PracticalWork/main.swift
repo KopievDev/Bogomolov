@@ -7,5 +7,14 @@
 
 import Foundation
 
-let math = Math()
-math.createTable()
+let firstBox = Rectangle(sideA: 3, sideB: 4, name: "bibo")
+let secondBox = Rectangle(sideA: 1, sideB: 2, name: "bobo")
+let thirdBox = Rectangle(sideA: 4, sideB: 6, name: "hoba")
+
+firstBox.showParameters()
+secondBox.showParameters()
+thirdBox.showParameters()
+
+secondBox.compareWith(a: thirdBox)
+thirdBox.compareWith(a: firstBox)
+firstBox.compareWith(a: secondBox)
