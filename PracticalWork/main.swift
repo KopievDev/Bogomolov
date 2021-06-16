@@ -7,6 +7,5 @@
 
 import Foundation
 
-
-saveToFile()
-print(readFromFile())
+let math = Math()
+math.createTable()
